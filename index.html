@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta chartset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+        
+        <title>Encriptador Challenge</title>
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="Imagenes/Logo.svg">
+        </header>
+
+        <main>
+            <section class="first-section">
+                <div class="contenedor-cajatexto">
+                    <textarea class= "cajatexto" cols="30" rows="10" placeholder="Ingrese el texto aqui" ></textarea>
+                </div>
+
+                <div class="alert">
+                    <img class="alerta" src="Imagenes/alerta.svg">
+                    <p class="condicion">Solo letras minúsculas y sin acentos</p>
+                </div>
+
+                <div class="buttons-conteiner">
+                    <input type="button" class="btn-encriptar" value="Encriptar">
+                    <input type="button" class="btn-desencriptar" value="Desencriptar">
+                </div>
+            </section>
+            <section class="second-section">
+                <div class="image-conteiner">
+                    <img class="discover" src="Imagenes/Descubrir.jpeg" alt="discover-image">
+                </div>
+
+                <div class="paragraph-conteiner">
+                    <h3>Ningún mensaje fue <br> encontrado</h3>
+                    <p>Ingresa el texto que desees encriptar o <br> desencriptar.</p>
+                </div>
+
+                <div class="copy-conteiner">
+                    <input type="button" class="btn-copiar" value="Copiar">
+                </div>
+
+                <div class="result-conteiner">
+                    <p class="result-text"></p>
+                </div>
+
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
